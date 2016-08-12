@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/darker_gray"
+    tools:context="com.example.myapplication.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:gravity="center"
+        android:textSize="26sp"
+        android:text="aghjbk大白繁!" />
+
+    <com.example.myapplication.MyView
+        android:padding="10dp"
+        android:background="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        app:text="aghjbk大白繁"
+        app:textSize="26sp"
+        app:textColor="@android:color/darker_gray"
+        app:drawRight="@mipmap/ic_launcher"
+        app:drawLeft="@mipmap/ic_launcher"
+        android:id="@+id/myView" />
+</LinearLayout>
