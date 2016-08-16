@@ -6,5 +6,13 @@
             <attr name="text" format="string"></attr>
             <attr name="textSize" format="dimension"></attr>
             <attr name="textColor" format="color"></attr>
+            <attr name="textPaddLeft" format="dimension"></attr>
+            <attr name="lineColor" format="color"></attr>
+            <attr name="lineSize" format="dimension"/>
+            <attr name="lineStart" >
+                <flag name="padd" value="0"/>
+                <flag name="draw" value="1"/>
+                <flag name="text" value="2"/>
+            </attr>
         </declare-styleable>
 </resources>
