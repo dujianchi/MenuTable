@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-        <declare-styleable name="MyView">
+        <declare-styleable name="MenuItemView">
             <attr name="drawLeft" format="reference"></attr>
             <attr name="drawRight" format="reference"></attr>
             <attr name="text" format="string"></attr>
@@ -13,6 +13,13 @@
                 <flag name="padd" value="0"/>
                 <flag name="draw" value="1"/>
                 <flag name="text" value="2"/>
+                <flag name="view" value="3"/>
+            </attr>
+            <attr name="lineEnd" >
+                <flag name="padd" value="0"/>
+                <flag name="draw" value="1"/>
+                <flag name="text" value="2"/>
+                <flag name="view" value="3"/>
             </attr>
         </declare-styleable>
 </resources>
